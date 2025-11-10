@@ -2,7 +2,7 @@
 
 <!-- 
 
-Your namesssssssssssssssssssssssssssss 
+Your names
 
 Date Revised: This is the last day you saved. 
 
