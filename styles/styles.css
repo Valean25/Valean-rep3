@@ -1,7 +1,7 @@
 body {
     display: grid;
     grid-template-columns: auto;
-    background-image:url(/img/assets/bgtexture.jpg) !important;
+    background-image:url(/assets/bgtexture.jpg) !important;
 }
 
 .navbar{
