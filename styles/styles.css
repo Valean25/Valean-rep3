@@ -9,17 +9,23 @@ color: #5F002B;
 font:url(/font/Montauk-Italic.otf);
 }
 
-.image{
+.image1{
 justify-content:left;
-height:85%;
+width:100%;
 }
 
 .image2{
-width: 25%;
-
+width: 50%;
+margin-top: 50px;
+margin-left: 100px;
 }
 
 .box
 {
     background-color: #ffff;
+}
+
+
+.bg{
+    background-image: url(/assets/bgtexture.jpg);
 }
