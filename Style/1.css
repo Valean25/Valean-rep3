@@ -1,3 +1,7 @@
 body {
     background-image:url(/img/assets/bgtexture.jpg) !important;
 }
+
+.navbar{
+    background: none;
+}
