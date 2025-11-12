@@ -1,0 +1,48 @@
+
+@font-face {
+  font-family: 'Montauk';
+  font-style: normal;
+  font-weight: 300;
+  src: url("/font/Montauk-Light.otf");
+}
+@font-face {
+  font-family: 'Montauk';
+  font-style: normal;
+  font-weight: 400;
+  src: url("/font/Montauk-Regular.otf");
+}
+@font-face {
+  font-family: 'Montauk';
+  font-style: normal;
+  font-weight: 700;
+  src: url("/font/Montauk-Bold.otf");
+}
+@font-face {
+  font-family: 'Montauk';
+  font-style: italic;
+  font-weight: 400;
+  src: url("/font/Montauk-Italic.otf");
+}
+
+.font-m {
+  font-family: "Montauk", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-f {
+  font-family: "Fugaz One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+hr {
+  color: #980051;
+  height: 1px;
+  opacity: 1;
+}
+
+.menu-tile {
+  background-color: white;
+  height: 100%;
+}
