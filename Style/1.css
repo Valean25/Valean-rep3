@@ -1,7 +1,6 @@
 body {
     display: grid;
     grid-template-columns: auto;
-    gap: 5px;
     background-image:url(/img/assets/bgtexture.jpg) !important;
 }
 
@@ -16,6 +15,11 @@ font:url(/font/Montauk-Italic.otf);
 }
 
 .image{
-    width:auto;
+justify-content:left;
+height:85%;
 }
 
+.box
+{
+    background-color: #ffff;
+}
