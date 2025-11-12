@@ -1,7 +1,21 @@
 body {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 5px;
     background-image:url(/img/assets/bgtexture.jpg) !important;
 }
 
 .navbar{
+    grid-column:auto;
     background: none;
 }
+
+.font1{
+color: #5F002B;
+font:url(/font/Montauk-Italic.otf);
+}
+
+.image{
+    width:auto;
+}
+
