@@ -64,3 +64,28 @@ body {
 .foot-txt{
     font-size: 20px;
 }
+body {
+    display: grid;
+    grid-template-columns: auto;
+    background-image:url(/assets/bgtexture.jpg) !important;
+}
+
+.navbar{
+    grid-column:auto;
+    background: none;
+}
+
+.font1{
+color: #5F002B;
+font:url(/font/Montauk-Italic.otf);
+}
+
+.image{
+justify-content:left;
+height:85%;
+}
+
+.box
+{
+    background-color: #ffff;
+}
