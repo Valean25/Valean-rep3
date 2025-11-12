@@ -1,17 +1,17 @@
-body {
-    background-image: url(../assets/bgtexture.jpg);
+.photoPage {
+background-image: url(../assets/bgtexture.jpg);
 }
 
 .logo {
     display: flex;
     width: 250px;
     height: auto;
-
+    
     margin-bottom: 20px;
     justify-content: left;
 }
 
-.box {
+.boxH {
     display: flex;
     width: 1640px;
     height: 80px;
@@ -50,7 +50,7 @@ body {
 }
 
 .foot-col {
-    font-size: 20px;
+    font-size: 10px;
     color: #5F002B;
 }
 
@@ -62,8 +62,11 @@ body {
 }
 
 .foot-txt{
-    font-size: 20px;
+    font-size: 10px;
+    color: #5F002B;
+   margin-top: 40px;
 }
+
 body {
     display: grid;
     grid-template-columns: auto;
