@@ -3,6 +3,25 @@
     background-image: url(../assets/bgtexture.jpg);
 }
 
+
+.navbar {
+    grid-column: auto;
+    background: none;
+}
+
+.font1 {
+    color: #5F002B;
+    font: url(/font/Montauk-Italic.otf);
+}
+
+.image1 {
+    width: 1920px;
+    height: 600px;
+}
+
+.image2 {
+    width: 672px;
+    height: 449.5px;
 .photoPagelogo {
     display: flex;
     width: 250px;
@@ -95,12 +114,28 @@ body {
     height: 85%;
 }
 
-.image2{
-width: 25%;
-
+.rectangle {
+    width: 950px;
+    height: 265px;
+    margin: 24xp;
+    background-color: #ffff !important;
 }
 
+.container {
+    margin-top: 16px;
+}
+
+.homeimage {
+    height: 185px;
+    width: 950px;
+    object-fit: contain;
 
 .box {
     background-color: #ffff;
 }
+
+.bg {
+    background-image: url(/assets/bgtexture.jpg);
+}
+
+.row {}
