@@ -116,6 +116,8 @@ body {
 }
 
 .rectangle {
+    color: #5F002B;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     width: 950px;
     height: 265px;
     margin: 24xp;
@@ -142,7 +144,3 @@ body {
 
 .row {}
 
-.Bigtext{
-    color: #5F002B;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
-}
