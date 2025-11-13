@@ -1,0 +1,106 @@
+/* Photos Page Start */
+.photoPage {
+    background-image: url(../assets/bgtexture.jpg);
+}
+
+.photoPagelogo {
+    display: flex;
+    width: 250px;
+    height: auto;
+    margin-bottom: 20px;
+    justify-content: left;
+    border: none;       /* removed border */
+    outline: none;      /* removed outline */
+    text-decoration: none;
+}
+
+.photoPage-nav-link-custom {
+    color: #5F002B;        /* match your other text */
+    text-decoration: none;  /* remove underline */
+}
+
+
+.photoPageboxH {
+    display: flex;
+    width: 1640px;
+    height: 80px;
+    background-color: white;
+    font-size: 50px;
+    justify-content: center;
+    color: #5F002B;
+}
+
+.fugaz-one-regular {
+    font-family: "Fugaz One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.photoPagespce {
+    display: flex;
+    width: 298px;
+    height: auto;
+    justify-content: left;
+    margin-top: 35px;
+    border: none;       /* removed border around other images */
+}
+
+.photoPagenav-col {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-size: 20px;
+    color: #5F002B;
+}
+
+/* Remove underline and force text color for nav items */
+.photoPagenav-col .photoPagenav {
+    color: #5F002B;
+    text-decoration: none;
+}
+
+.photoPagefoot-col {
+    font-size: 10px;
+    color: #5F002B;
+}
+
+.photoPagefoot-txt {
+    font-size: 10px;
+    color: #5F002B;
+}
+
+.photoPagecomplogo {
+    width: 100px;
+    height: auto; /* keep aspect ratio */
+}
+/* Photos Page End */
+
+body {
+    display: grid;
+    grid-template-columns: auto;
+    background-image: url(/assets/bgtexture.jpg) !important;
+}
+
+.navbar {
+    grid-column: auto;
+    background: none;
+}
+
+.font1 {
+    color: #5F002B;
+    font: url(/font/Montauk-Italic.otf);
+}
+.image {
+    justify-content: left;
+    height: 85%;
+}
+
+.image2{
+width: 25%;
+
+}
+
+
+.box {
+    background-color: #ffff;
+}
