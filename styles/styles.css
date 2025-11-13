@@ -141,3 +141,8 @@ body {
 }
 
 .row {}
+
+.Bigtext{
+    color: #5F002B;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
