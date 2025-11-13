@@ -1,8 +1,9 @@
+/* Photos Page Start */
 .photoPage {
     background-image: url(../assets/bgtexture.jpg);
 }
 
-.logo {
+.photoPagelogo {
     display: flex;
     width: 250px;
     height: auto;
@@ -13,13 +14,13 @@
     text-decoration: none;
 }
 
-.nav-link-custom {
+.photoPage-nav-link-custom {
     color: #5F002B;        /* match your other text */
     text-decoration: none;  /* remove underline */
 }
 
 
-.boxH {
+.photoPageboxH {
     display: flex;
     width: 1640px;
     height: 80px;
@@ -35,7 +36,7 @@
     font-style: normal;
 }
 
-.spce {
+.photoPagespce {
     display: flex;
     width: 298px;
     height: auto;
@@ -44,7 +45,7 @@
     border: none;       /* removed border around other images */
 }
 
-.nav-col {
+.photoPagenav-col {
     display: flex;
     align-items: center;
     justify-content: right;
@@ -53,25 +54,26 @@
 }
 
 /* Remove underline and force text color for nav items */
-.nav-col .nav {
+.photoPagenav-col .photoPagenav {
     color: #5F002B;
     text-decoration: none;
 }
 
-.foot-col {
+.photoPagefoot-col {
     font-size: 10px;
     color: #5F002B;
 }
 
-.foot-txt {
+.photoPagefoot-txt {
     font-size: 10px;
     color: #5F002B;
 }
 
-.complogo {
+.photoPagecomplogo {
     width: 100px;
     height: auto; /* keep aspect ratio */
 }
+/* Photos Page End */
 
 body {
     display: grid;
@@ -88,7 +90,6 @@ body {
     color: #5F002B;
     font: url(/font/Montauk-Italic.otf);
 }
-
 .image {
     justify-content: left;
     height: 85%;
