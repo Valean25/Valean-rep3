@@ -21,7 +21,8 @@
 
 .image2 {
     width: 672px;
-    height: 449.5px;
+    height: 449.5px;}
+
 .photoPagelogo {
     display: flex;
     width: 250px;
@@ -129,6 +130,7 @@ body {
     height: 185px;
     width: 950px;
     object-fit: contain;
+}
 
 .box {
     background-color: #ffff;
