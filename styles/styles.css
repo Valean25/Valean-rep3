@@ -1,17 +1,97 @@
+.photoPage {
+    background-image: url(../assets/bgtexture.jpg);
+}
 
-.navbar{
-    grid-column:auto;
+.logo {
+    display: flex;
+    width: 250px;
+    height: auto;
+    margin-bottom: 20px;
+    justify-content: left;
+    border: none;       /* removed border */
+    outline: none;      /* removed outline */
+    text-decoration: none;
+}
+
+.nav-link-custom {
+    color: #5F002B;        /* match your other text */
+    text-decoration: none;  /* remove underline */
+}
+
+
+.boxH {
+    display: flex;
+    width: 1640px;
+    height: 80px;
+    background-color: white;
+    font-size: 50px;
+    justify-content: center;
+    color: #5F002B;
+}
+
+.fugaz-one-regular {
+    font-family: "Fugaz One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.spce {
+    display: flex;
+    width: 298px;
+    height: auto;
+    justify-content: left;
+    margin-top: 35px;
+    border: none;       /* removed border around other images */
+}
+
+.nav-col {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-size: 20px;
+    color: #5F002B;
+}
+
+/* Remove underline and force text color for nav items */
+.nav-col .nav {
+    color: #5F002B;
+    text-decoration: none;
+}
+
+.foot-col {
+    font-size: 10px;
+    color: #5F002B;
+}
+
+.foot-txt {
+    font-size: 10px;
+    color: #5F002B;
+}
+
+.complogo {
+    width: 100px;
+    height: auto; /* keep aspect ratio */
+}
+
+body {
+    display: grid;
+    grid-template-columns: auto;
+    background-image: url(/assets/bgtexture.jpg) !important;
+}
+
+.navbar {
+    grid-column: auto;
     background: none;
 }
 
-.font1{
-color: #5F002B;
-font:url(/font/Montauk-Italic.otf);
+.font1 {
+    color: #5F002B;
+    font: url(/font/Montauk-Italic.otf);
 }
 
-.image{
-justify-content:left;
-height:85%;
+.image {
+    justify-content: left;
+    height: 85%;
 }
 
 .image2{
@@ -19,7 +99,7 @@ width: 25%;
 
 }
 
-.box
-{
+
+.box {
     background-color: #ffff;
 }
