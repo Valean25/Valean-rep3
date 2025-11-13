@@ -1,31 +1,44 @@
 
-.navbar{
-    grid-column:auto;
+
+.navbar {
+    grid-column: auto;
     background: none;
 }
 
-.font1{
-color: #5F002B;
-font:url(/font/Montauk-Italic.otf);
+.font1 {
+    color: #5F002B;
+    font: url(/font/Montauk-Italic.otf);
 }
 
-.image1{
-justify-content:left;
-width:100%;
+.image1 {
+    width: 1920px;
+    height: 600px;
 }
 
-.image2{
-width: 50%;
-margin-top: 50px;
-margin-left: 100px;
+.image2 {
+    width: 672px;
+    height: 449.5px;
 }
 
-.box
-{
-    background-color: #ffff;
+.rectangle {
+    width: 950px;
+    height: 265px;
+    margin: 24xp;
+    background-color: #ffff !important;
 }
 
+.container {
+    margin-top: 16px;
+}
 
-.bg{
+.homeimage {
+    height: 185px;
+    width: 950px;
+    object-fit: contain;
+}
+
+.bg {
     background-image: url(/assets/bgtexture.jpg);
 }
+
+.row {}
