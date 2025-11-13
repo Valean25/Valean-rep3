@@ -1,15 +1,23 @@
 .photoPage {
-background-image: url(../assets/bgtexture.jpg);
+    background-image: url(../assets/bgtexture.jpg);
 }
 
 .logo {
     display: flex;
     width: 250px;
     height: auto;
-    
     margin-bottom: 20px;
     justify-content: left;
+    border: none;       /* removed border */
+    outline: none;      /* removed outline */
+    text-decoration: none;
 }
+
+.nav-link-custom {
+    color: #5F002B;        /* match your other text */
+    text-decoration: none;  /* remove underline */
+}
+
 
 .boxH {
     display: flex;
@@ -19,7 +27,6 @@ background-image: url(../assets/bgtexture.jpg);
     font-size: 50px;
     justify-content: center;
     color: #5F002B;
-
 }
 
 .fugaz-one-regular {
@@ -28,25 +35,27 @@ background-image: url(../assets/bgtexture.jpg);
     font-style: normal;
 }
 
-
-
 .spce {
     display: flex;
     width: 298px;
     height: auto;
     justify-content: left;
     margin-top: 35px;
-    border: white 10px solid;
+    border: none;       /* removed border around other images */
 }
 
 .nav-col {
     display: flex;
-
     align-items: center;
     justify-content: right;
-
     font-size: 20px;
     color: #5F002B;
+}
+
+/* Remove underline and force text color for nav items */
+.nav-col .nav {
+    color: #5F002B;
+    text-decoration: none;
 }
 
 .foot-col {
@@ -54,41 +63,37 @@ background-image: url(../assets/bgtexture.jpg);
     color: #5F002B;
 }
 
-.complogo {
-    display: flex;
-    justify-content: right;
-    width: 100px;
-    height: 31.6px;
-}
-
-.foot-txt{
+.foot-txt {
     font-size: 10px;
     color: #5F002B;
-   margin-top: 40px;
+}
+
+.complogo {
+    width: 100px;
+    height: auto; /* keep aspect ratio */
 }
 
 body {
     display: grid;
     grid-template-columns: auto;
-    background-image:url(/assets/bgtexture.jpg) !important;
+    background-image: url(/assets/bgtexture.jpg) !important;
 }
 
-.navbar{
-    grid-column:auto;
+.navbar {
+    grid-column: auto;
     background: none;
 }
 
-.font1{
-color: #5F002B;
-font:url(/font/Montauk-Italic.otf);
+.font1 {
+    color: #5F002B;
+    font: url(/font/Montauk-Italic.otf);
 }
 
-.image{
-justify-content:left;
-height:85%;
+.image {
+    justify-content: left;
+    height: 85%;
 }
 
-.box
-{
+.box {
     background-color: #ffff;
 }
