@@ -14,11 +14,6 @@
     font: url(/font/Montauk-Italic.otf);
 }
 
-.image1 {
-    width: 1920px;
-    height: 600px;
-}
-
 .image2 {
     width: 672px;
     height: 449.5px;}
@@ -111,7 +106,6 @@ justify-content: left !important;
     font: url(/font/Montauk-Italic.otf);
 }
 .image1 {
-    align-self: flex-start;
     width: 1920px;
     height: 600px ;
 }
@@ -138,6 +132,6 @@ justify-content: left !important;
 .box {
     background-color: #ffff;
 }
-.row{
-    width: 1920px;
+.nmms2{
+
 }
