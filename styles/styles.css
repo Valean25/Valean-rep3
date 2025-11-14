@@ -113,13 +113,13 @@ justify-content: left !important;
 .rectangle {
     color: #5F002B !important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important ;
-    width: 950px;
-    height: 265px;
+    width: 1080px;
+    height: 450px;
     background-color: #ffff !important;
     margin-left: 64px;
 }
 
-.nmms {
+.nms {
     width: 1920px;
     margin-top: 32px;
 }
@@ -132,6 +132,6 @@ justify-content: left !important;
 .box {
     background-color: #ffff;
 }
-.nmms2{
-
+.nms2{
+width: 1900px;
 }
