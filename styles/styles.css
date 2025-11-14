@@ -36,6 +36,7 @@ body{
     font-family: "Fugaz One", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: #5F002B;
 }
 
 .photoPagespce {
@@ -81,14 +82,33 @@ body{
 /* Photos Page End */
 
 /* About Page Start */
-.abtPgB{
-    background-image: url(../assets/bgtexture.jpg);
+.isa-body {
+  background: center / cover url("/assets/bgtexture.jpg"), #F2E9D9;
+  color: #5F002B;
+}
+
+.aboutMainImg{
+    width: 524.5px;
+    height: 524.5px;
+}
+
+.aboutBox{
+    background-color: white;
+height: 524.5px;
+width: 764.5px;
+}
+
+.pTxt{
+    font-size: 12px;
+}
+.font-m {
+  font-family: "Montauk", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 /* About Page End */
-body {
-    background-image: url(/assets/bgtexture.jpg) !important;
-}
+
 
 .navbar {
     grid-column: auto;
