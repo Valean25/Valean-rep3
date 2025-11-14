@@ -90,6 +90,12 @@
 }
 /* Photos Page End */
 
+body {
+    width: 1920px;
+    background-image: url(/assets/bgtexture.jpg) !important;
+justify-content: left !important;
+}
+
 .navbar {
     grid-column: auto;
     background: none;
