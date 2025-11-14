@@ -42,8 +42,13 @@
 
 /* ---------------------------------------------------------------------------------------------- */
 
+@font-face {
+    font-family: 'Montauk-fontAbout';
+    src: url(../fonts/Montauk-Regular.otf);
+}
+
 body {
-  background-image: url(../assets/bgtexture.jpg);
+    background-image: url(../assets/bgtexture.jpg);
 }
 
 .photoPagelogo {
@@ -85,13 +90,23 @@ body {
 }
 
 .photoPagespce {
-  display: flex;
-  width: 298px;
-  height: auto;
-  justify-content: left;
-  margin-top: 35px;
-  border: none;
-  /* removed border around other images */
+    display: flex;
+    width: 298px;
+    height: auto;
+    justify-content: left;
+    margin-top: 35px;
+    border: 5px solid white;
+
+}
+
+.photoPagespce1 {
+    display: flex;
+    width: 298px;
+    height: auto;
+    justify-content: left;
+    margin-top: 35px;
+    border: none;
+
 }
 
 .photoPagenav-col {
@@ -109,13 +124,15 @@ body {
 }
 
 .photoPagefoot-col {
-  font-size: 10px;
-  color: #5F002B;
+    font-size: 10px;
+    color: #5F002B;
+    font-family: Montauk-fontAbout;
 }
 
 .photoPagefoot-txt {
-  font-size: 10px;
-  color: #5F002B;
+    font-size: 10px;
+    color: #5F002B;
+    font-family: Montauk-fontAbout;
 }
 
 .photoPagecomplogo {
@@ -128,32 +145,102 @@ body {
 
 /* About Page Start */
 .isa-body {
-  background: center / cover url("/assets/bgtexture.jpg"), #F2E9D9;
-  color: #5F002B;
+    background: center / cover url("/assets/bgtexture.jpg"), #F2E9D9;
+    color: #5F002B;
 }
+
 
 .aboutMainImg {
-  width: 524.5px;
-  height: 524.5px;
+    width: 100% !important;
+    height: auto !important;
 }
+
 
 .aboutBox {
-  background-color: white;
-  height: 524.5px;
-  width: 764.5px;
+    background-color: white;
+    width: 100% !important;
+    height: auto !important;
+    padding: 20px;
 }
 
+
 .pTxt {
-  font-size: 12px;
+    font-size: 12px;
+    color: #5F002B;
+    font-family: Montauk-fontAbout;
 }
 
 .font-m {
-  font-family: "Montauk", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+    font-family: "Montauk", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+.card {
+    width: 100% !important;
+    max-width: 26rem;
+}
+
+
+.photoPagenav-col {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+@media (max-width: 992px) {
+    
+    .container .row:first-child {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    
+    .photoPagelogo,
+    .photoPagespce1 {
+        margin: 0 auto;
+        display: block;
+    }
+
+   
+    .photoPagenav-col {
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 10px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .aboutBox p {
+        font-size: 14px;
+    }
+
+    .aboutMainImg {
+        margin-bottom: 20px;
+    }
+
+    .photoPageboxH p {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .row .col {
+        display: flex;
+        justify-content: center !important;
+        margin-bottom: 20px;
+    }
 }
 
 /* About Page End */
+
+
+
 
 
 .navbar {
@@ -200,11 +287,6 @@ body {
 
 .nms2 {
   margin: 24px;
-}
-
-.rawr {
-  margin-top: 64px;
-  margin-left: 128px;
 }
 
 /* Isaias --------------------------------------------------------------------------------------- */
