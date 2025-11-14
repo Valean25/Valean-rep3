@@ -3,35 +3,24 @@
     background-image: url(../assets/bgtexture.jpg);
 }
 
-
-.navbar {
-    grid-column: auto;
-    background: none;
-}
-
-.font1 {
-    color: #5F002B;
-    font: url(/font/Montauk-Italic.otf);
-}
-
-.image2 {
-    width: 672px;
-    height: 449.5px;}
-
 .photoPagelogo {
     display: flex;
     width: 250px;
     height: auto;
     margin-bottom: 20px;
     justify-content: left;
-    border: none;       /* removed border */
-    outline: none;      /* removed outline */
+    border: none;
+    /* removed border */
+    outline: none;
+    /* removed outline */
     text-decoration: none;
 }
 
 .photoPage-nav-link-custom {
-    color: #5F002B;        /* match your other text */
-    text-decoration: none;  /* remove underline */
+    color: #5F002B;
+    /* match your other text */
+    text-decoration: none;
+    /* remove underline */
 }
 
 
@@ -57,7 +46,8 @@
     height: auto;
     justify-content: left;
     margin-top: 35px;
-    border: none;       /* removed border around other images */
+    border: none;
+    /* removed border around other images */
 }
 
 .photoPagenav-col {
@@ -86,8 +76,10 @@
 
 .photoPagecomplogo {
     width: 100px;
-    height: auto; /* keep aspect ratio */
+    height: auto;
+    /* keep aspect ratio */
 }
+
 /* Photos Page End */
 
 body {
@@ -99,18 +91,30 @@ body {
     background: none;
 }
 
+/* --------JONATHAN--------------------------------------------------------------------------------------------------------------------------------------------- */
 .font1 {
     color: #5F002B;
     font: url(/font/Montauk-Italic.otf);
 }
+
+.image2 {
+    width: 672px;
+    height: 449.5px;
+}
+
+.font1 {
+    color: #5F002B;
+    font: url(/font/Montauk-Italic.otf);
+}
+
 .image1 {
     width: 1920px;
-    height: 600px ;
+    height: 600px;
 }
 
 .rectangle {
     color: #5F002B !important;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
     width: 1080px;
     height: 450px;
     background-color: #ffff !important;
@@ -131,6 +135,9 @@ body {
 .box {
     background-color: #ffff;
 }
-.nms2{
-width: 1900px;
+
+.nms2 {
+    width: 1900px;
 }
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
