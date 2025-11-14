@@ -96,8 +96,6 @@
 /* Photos Page End */
 
 body {
-    display: grid;
-    grid-template-columns: auto;
     background-image: url(/assets/bgtexture.jpg) !important;
 }
 
@@ -111,16 +109,15 @@ body {
     font: url(/font/Montauk-Italic.otf);
 }
 .image {
-    justify-content: left;
-    height: 85%;
+    width: 1920;
+    height: 600px ;
 }
 
 .rectangle {
-    color: #5F002B;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: #5F002B !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important ;
     width: 950px;
     height: 265px;
-    margin: 24xp;
     background-color: #ffff !important;
 }
 
@@ -131,7 +128,6 @@ body {
 .homeimage {
     height: 185px;
     width: 950px;
-    object-fit: contain;
 }
 
 .box {
@@ -139,6 +135,7 @@ body {
 }
 
 .bg {
+    justify-content: center;
     background-image: url(/assets/bgtexture.jpg);
 }
 
