@@ -1,8 +1,6 @@
-/* Photos Page Start */
-.photoPage {
+body{
     background-image: url(../assets/bgtexture.jpg);
 }
-
 .photoPagelogo {
     display: flex;
     width: 250px;
@@ -137,7 +135,6 @@ width: 764.5px;
     width: 1920px;
     height: 600px;
 }
-
 .rectangle {
     color: #5F002B !important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
@@ -166,4 +163,4 @@ width: 764.5px;
     width: 1900px;
 }
 
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -----Isaias------------------------------------------------------------------------------------------------------------------------------------------------ */
