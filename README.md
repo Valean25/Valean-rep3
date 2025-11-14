@@ -1,15 +1,5 @@
-# group-repository-3
+# Puppy Restaurant
 
-<!-- 
-Your names
-
-Date Revised: This is the last day you saved. 
-
-Exercise or Lab name 
-
-Brief Description of what you did. 
-
-You can add multiple dates with description.
-
-Person who Peer Reviewed your assignment
--->
+- Authors: Eliasaf Gonzalez, Isaias Gonzalez, Jonathan Ramirez
+- Revised: 11/14/2025
+- Review: ...
