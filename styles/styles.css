@@ -306,6 +306,7 @@ body {
 }
 
 .font1 {
+    font-size: 12px;
     color: #5F002B;
     font: url("/fonts/Montauk-Regular.otf");
 }
