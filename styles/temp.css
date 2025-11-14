@@ -24,13 +24,13 @@
   src: url("/fonts/Montauk-Italic.otf");
 }
 
-.font-m {
+.font-mk {
   font-family: "Montauk", sans-serif;
   font-weight: 300;
   font-style: normal;
 }
 
-.font-f {
+.font-fz {
   font-family: "Fugaz One", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -39,6 +39,9 @@
 .isa-body {
   background: center / cover url("/assets/bgtexture.jpg"), #F2E9D9;
   color: #5F002B;
+  font-family: "Montauk", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .isa-header .navbar-nav .nav-item .nav-link {
@@ -54,14 +57,56 @@
   text-decoration: underline;
 }
 
+.isa-footer {
+  padding: 3rem 0;
+  font-size: 1.25rem;
+}
+
+.isa-h1 {
+  background-color: white;
+  font-family: "Fugaz One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 1rem 0 3rem;
+}
+
 .isa-card {
   background-color: white;
   height: 100%;
+}
+
+.isa-ch {
+  font-family: "Fugaz One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+.isa-cb {
+  font-size: 1.25rem;
+  line-height: 1.25;
+  margin-bottom: 1.5rem;
+}
+
+.isa-ih {
+  font-size: 1.75rem;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+.isa-ib {
+  font-size: 1.25rem;
+  line-height: 1.25;
+  margin-bottom: 0;
 }
 
 .isa-hr {
   color: #980051;
   height: 1px;
   opacity: 1;
-  margin: 0.25rem 0 1rem;
+  margin: 0.5rem 0 1rem;
 }
