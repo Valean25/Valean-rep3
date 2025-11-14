@@ -97,36 +97,25 @@ body {
     font: url(/font/Montauk-Italic.otf);
 }
 
-.image2 {
-    width: 672px;
-    height: 449.5px;
-}
-
 .font1 {
     color: #5F002B;
     font: url(/font/Montauk-Italic.otf);
 }
 
-.image1 {
-    height: 600px;
-}
-
 .rectangle {
     color: #5F002B !important;
-    width: 1080px;
-    height: 450px;
     background-color: #ffff !important;
     margin-left: 64px;
     align-items: center;
+    padding: 0px !important;
+    object-fit:scale-down;
 }
 
 .nms {
-    width: 1920px;
     margin-top: 32px;
 }
 
 .homeimage {
-
 }
 .fix{
 justify-content: left;
@@ -137,7 +126,6 @@ justify-content: left;
 }
 
 .nms2 {
-    width: 1900px;
 }
 
 .rawr{
