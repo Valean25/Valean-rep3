@@ -96,6 +96,7 @@
 /* Photos Page End */
 
 body {
+    width: 1920px;
     background-image: url(/assets/bgtexture.jpg) !important;
 }
 
@@ -109,7 +110,8 @@ body {
     font: url(/font/Montauk-Italic.otf);
 }
 .image {
-    width: 1920;
+    align-self: flex-start;
+    width: 1920px;
     height: 600px ;
 }
 
@@ -121,8 +123,9 @@ body {
     background-color: #ffff !important;
 }
 
-.container {
-    margin-top: 16px;
+.nmms {
+    width: 1920px;
+    margin-top: 32px;
 }
 
 .homeimage {
@@ -133,11 +136,6 @@ body {
 .box {
     background-color: #ffff;
 }
-
-.bg {
-    justify-content: center;
-    background-image: url(/assets/bgtexture.jpg);
+.row{
+    width: 1920px;
 }
-
-.row {}
-
