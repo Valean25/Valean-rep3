@@ -204,11 +204,6 @@ body {
 }
 
 /* --------JONATHAN--------------------------------------------------------------------------------------------------------------------------------------------- */
-.font1 {
-    color: #5F002B;
-    font: url(/font/Montauk-Italic.otf);
-}
-
 .image2 {
     width: 672px;
     height: 449.5px;
@@ -216,7 +211,7 @@ body {
 
 .font1 {
     color: #5F002B;
-    font: url(/font/Montauk-Italic.otf);
+    font: url("/fonts/Montauk-Regular.otf");
 }
 
 .image1 {
@@ -226,30 +221,30 @@ body {
 
 .rectangle {
     color: #5F002B !important;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    font-size: auto;
+    object-fit: fill;
     width: 1080px;
-    height: 450px;
+    height: 150px;
     background-color: #ffff !important;
     margin-left: 64px;
     align-items: center;
+    padding: 0px !important;
 }
 
-.nms {
-    width: 1920px;
-    margin-top: 32px;
+.nmms {
+    width: 100%;
+    height: auto;
 }
-
-.homeimage {
-    height: 185px;
-    width: 950px;
-}
-
 .box {
     background-color: #ffff;
 }
 
 .nms2 {
-    width: 1900px;
+    margin: 24px;
+}
+.rawr{
+    margin-top: 64px;
+    margin-left: 128px;
 }
 
 /* -----Isaias------------------------------------------------------------------------------------------------------------------------------------------------ */
