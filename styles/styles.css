@@ -152,15 +152,15 @@ body {
 
 
 .aboutMainImg {
-    width: 474.5px !important;
-    height: 474.5px !important;
+    width: 100% !important;
+    height: auto !important;
 }
 
 
 .aboutBox {
     background-color: white;
     width: 820.5px !important;
-    height: 474.5px !important;
+    height: auto !important;
     padding: 20px;
 }
 
@@ -191,16 +191,26 @@ body {
     justify-content: flex-end;
 }
 
+.customRow{
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    flex-direction: column;
+}
 
 @media (max-width: 992px) {
-
-    .contA .roA:first-child {
+    
+    .aboutMainImg{
+        height: auto;
+        width: auto;
+    }
+    .customBdy .roA:first-child {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        
     }
-
-
+    
+    
     .photoPagelogo,
     .photoPagespce1 {
         margin: 0 auto;
@@ -217,25 +227,57 @@ body {
 }
 
 
-@media (max-width: 600px) {
-    .aboutBox p {
-        font-size: 14px;
-    }
-
-    .aboutMainImg {
-        margin-bottom: 20px;
-    }
-
-    .photoPageboxH p {
-        font-size: 24px;
-    }
-
-}
 
 @media (max-width: 768px) {
     .aboutBox p {
         font-size: 14px;
     }
+    
+    .aboutMainImg {
+        margin-bottom: 20px;
+    }
+    
+    .photoPageboxH p {
+        font-size: 24px;
+    }
+    
+}
+
+
+
+
+@media (max-width: 1024px) {
+    .customRow{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 770px) {
+    .customRow{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
+
+@media (max-width: 770px) {
+    .aboutBox p {
+        font-size: 11px;
+    }
+
+    .aboutMainImg {
+        margin-bottom: 20px;
+    }
+
+    .photoPageboxH p {
+        font-size: 24px;
+    }
+
+   
+
+}
+@media (max-width: 442px) {
+    .aboutBox p {
+        font-size: 9px;
+    }
 
     .aboutMainImg {
         margin-bottom: 20px;
@@ -246,15 +288,6 @@ body {
     }
 
 }
-
-@media (max-width: 1200px) {
-    .roA .coA {
-        display: flex;
-        justify-content: center !important;
-        margin-bottom: 20px;
-    }
-}
-
 /* About Page End */
 
 
