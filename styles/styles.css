@@ -1,37 +1,24 @@
-/* Photos Page Start */
-.photoPage {
+body{
     background-image: url(../assets/bgtexture.jpg);
 }
-
-
-.navbar {
-    grid-column: auto;
-    background: none;
-}
-
-.font1 {
-    color: #5F002B;
-    font: url(/font/Montauk-Italic.otf);
-}
-
-.image2 {
-    width: 672px;
-    height: 449.5px;}
-
 .photoPagelogo {
     display: flex;
     width: 250px;
     height: auto;
     margin-bottom: 20px;
     justify-content: left;
-    border: none;       /* removed border */
-    outline: none;      /* removed outline */
+    border: none;
+    /* removed border */
+    outline: none;
+    /* removed outline */
     text-decoration: none;
 }
 
 .photoPage-nav-link-custom {
-    color: #5F002B;        /* match your other text */
-    text-decoration: none;  /* remove underline */
+    color: #5F002B;
+    /* match your other text */
+    text-decoration: none;
+    /* remove underline */
 }
 
 
@@ -49,6 +36,7 @@
     font-family: "Fugaz One", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: #5F002B;
 }
 
 .photoPagespce {
@@ -57,7 +45,8 @@
     height: auto;
     justify-content: left;
     margin-top: 35px;
-    border: none;       /* removed border around other images */
+    border: none;
+    /* removed border around other images */
 }
 
 .photoPagenav-col {
@@ -68,7 +57,7 @@
     color: #5F002B;
 }
 
-/* Remove underline and force text color for nav items */
+
 .photoPagenav-col .photoPagenav {
     color: #5F002B;
     text-decoration: none;
@@ -86,52 +75,87 @@
 
 .photoPagecomplogo {
     width: 100px;
-    height: auto; /* keep aspect ratio */
+    height: auto;
+    /* keep aspect ratio */
 }
+
 /* Photos Page End */
 
-body {
-    width: 1920px;
-    background-image: url(/assets/bgtexture.jpg) !important;
-justify-content: left !important;
+/* About Page Start */
+.isa-body {
+  background: center / cover url("/assets/bgtexture.jpg"), #F2E9D9;
+  color: #5F002B;
 }
+
+.aboutMainImg{
+    width: 524.5px;
+    height: 524.5px;
+}
+
+.aboutBox{
+    background-color: white;
+height: 524.5px;
+width: 764.5px;
+}
+
+.pTxt{
+    font-size: 12px;
+}
+.font-m {
+  font-family: "Montauk", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* About Page End */
+
 
 .navbar {
     grid-column: auto;
     background: none;
 }
 
+/* --------JONATHAN--------------------------------------------------------------------------------------------------------------------------------------------- */
+.image2 {
+    width: 672px;
+    height: 449.5px;
+}
+
 .font1 {
     color: #5F002B;
-    font: url(/font/Montauk-Italic.otf);
+    font: url("/fonts/Montauk-Regular.otf");
 }
+
 .image1 {
     width: 1920px;
-    height: 600px ;
+    height: 600px;
 }
-
 .rectangle {
     color: #5F002B !important;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important ;
+    font-size: auto;
+    object-fit: fill;
     width: 1080px;
-    height: 450px;
+    height: 150px;
     background-color: #ffff !important;
     margin-left: 64px;
+    align-items: center;
+    padding: 0px !important;
 }
 
-.nms {
-    width: 1920px;
-    margin-top: 32px;
+.nmms {
+    width: 100%;
+    height: auto;
 }
-
-.homeimage {
-    height: 185px;
-    width: 950px;
-}
-
 .box {
     background-color: #ffff;
 }
-.nms2{
-width: 1900px;
+
+.nms2 {
+    margin: 24px;
 }
+.rawr{
+    margin-top: 64px;
+    margin-left: 128px;
+}
+
+/* -----Isaias------------------------------------------------------------------------------------------------------------------------------------------------ */
