@@ -37,7 +37,7 @@
 }
 
 .isa-body {
-  background: center / cover url("/assets/bgtexture.jpg"), #F2E9D9;
+  background: fixed top left / 100vh url("/assets/bgtexture.jpg"), #F2E9D9;
   color: #5F002B;
   font-family: "Montauk", sans-serif;
   font-weight: 300;
