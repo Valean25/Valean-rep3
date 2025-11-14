@@ -137,7 +137,7 @@ width: 764.5px;
 }
 .rectangle {
     color: #5F002B !important;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    font-size: auto;
     width: 1080px;
     height: 150px;
     background-color: #ffff !important;
@@ -155,9 +155,11 @@ width: 764.5px;
 }
 
 .nms2 {
+    margin: 24px;
 }
 .rawr{
-    margin-top: 32px;
+    margin-top: 128px;
+    margin-left: 256px;
 }
 
 /* -----Isaias------------------------------------------------------------------------------------------------------------------------------------------------ */
