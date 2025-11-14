@@ -96,12 +96,10 @@ body {
     color: #5F002B;
     font: url(/font/Montauk-Italic.otf);
 }
-
 .font1 {
     color: #5F002B;
     font: url(/font/Montauk-Italic.otf);
 }
-
 .rectangle {
     color: #5F002B !important;
     background-color: #ffff !important;
@@ -110,12 +108,8 @@ body {
     padding: 0px !important;
     object-fit:scale-down;
 }
-
 .nms {
     margin-top: 32px;
-}
-
-.homeimage {
 }
 .fix{
 justify-content: left;
@@ -124,13 +118,8 @@ justify-content: left;
 .box {
     background-color: #ffff;
 }
-
-.nms2 {
-}
-
 .rawr{
         margin-left: 64px;
         margin-top: 32px;
 }
-
 /* -----Isaiasas------------------------------------------------------------------------------------------------------------------------------------------------ */
