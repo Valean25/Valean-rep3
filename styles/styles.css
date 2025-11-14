@@ -1,4 +1,5 @@
 body{
+    justify-content: center;
     background-image: url(../assets/bgtexture.jpg);
 }
 .photoPagelogo {
@@ -102,7 +103,7 @@ width: 764.5px;
     font-size: 12px;
 }
 .font-m {
-  font-family: "Montauk", sans-serif;
+    font-family: "Montauk", sans-serif;
   font-weight: 300;
   font-style: normal;
 }
@@ -117,27 +118,27 @@ width: 764.5px;
 
 /* --------JONATHAN--------------------------------------------------------------------------------------------------------------------------------------------- */
 .image2 {
-    width: 672px;
-    height: 449.5px;
+    width: 100%;
+    height: auto;
 }
 
 .font1 {
+    font-family: 'Fugaz One';
+    font-weight:80px;
     color: #5F002B;
-    font: url("/fonts/Montauk-Regular.otf");
 }
 
 .image1 {
-    width: 1920px;
-    height: 600px;
+    width: 100%;
+    height: auto;
 }
 .rectangle {
+    font-family: 'Montauk';
+    font: url("/fonts/Montauk-Regular.otf");
     color: #5F002B !important;
     font-size: auto;
-    object-fit: fill;
-    width: 1080px;
-    height: 150px;
+    object-fit: scale-down;
     background-color: #ffff !important;
-    margin-left: 64px;
     align-items: center;
     padding: 0px !important;
 }
@@ -147,15 +148,23 @@ width: 764.5px;
     height: auto;
 }
 .box {
-    background-color: #ffff;
+    margin-top: 64px;
+    margin-left: 64px;
 }
 
 .nms2 {
     margin: 24px;
 }
 .rawr{
+    align-items: stretch;
+    justify-content: space-around;
     margin-top: 64px;
     margin-left: 128px;
 }
-
+.rawr1{
+    margin-top: 64px;
+}
+.rawr2{
+    justify-content: space-between;
+}
 /* -----Isaias------------------------------------------------------------------------------------------------------------------------------------------------ */
