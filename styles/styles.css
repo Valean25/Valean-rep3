@@ -82,6 +82,12 @@
 
 /* Photos Page End */
 
+/* About Page Start */
+.abtPgB{
+    background-image: url(../assets/bgtexture.jpg);
+}
+
+/* About Page End */
 body {
     background-image: url(/assets/bgtexture.jpg) !important;
 }
@@ -96,30 +102,47 @@ body {
     color: #5F002B;
     font: url(/font/Montauk-Italic.otf);
 }
+
+.image2 {
+    width: 672px;
+    height: 449.5px;
+}
+
 .font1 {
     color: #5F002B;
     font: url(/font/Montauk-Italic.otf);
 }
+
+.image1 {
+    width: 1920px;
+    height: 600px;
+}
 .rectangle {
     color: #5F002B !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    width: 1080px;
+    height: 450px;
     background-color: #ffff !important;
     margin-left: 64px;
     align-items: center;
-    padding: 0px !important;
-    object-fit:scale-down;
 }
+
 .nms {
+    width: 1920px;
     margin-top: 32px;
 }
-.fix{
-justify-content: left;
+
+.homeimage {
+    height: 185px;
+    width: 950px;
 }
 
 .box {
     background-color: #ffff;
 }
-.rawr{
-        margin-left: 64px;
-        margin-top: 32px;
+
+.nms2 {
+    width: 1900px;
 }
-/* -----Isaiasas------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+/* -----Isaias------------------------------------------------------------------------------------------------------------------------------------------------ */
