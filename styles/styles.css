@@ -310,8 +310,8 @@ body {
 .rawr {
     align-items: stretch;
     justify-content: space-between;
-    margin-top: 64px;
-    padding: 0px !important;
+    margin-top: 32px;
+    padding: 32px !important;
 
 }
 
