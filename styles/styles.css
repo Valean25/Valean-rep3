@@ -24,14 +24,14 @@
     height: auto;
     margin-bottom: 20px;
     justify-content: left;
-    border: none;       /* removed border */
-    outline: none;      /* removed outline */
+    border: none;       
+    outline: none;     
     text-decoration: none;
 }
 
 .photoPage-nav-link-custom {
-    color: #5F002B;        /* match your other text */
-    text-decoration: none;  /* remove underline */
+    color: #5F002B;        
+    text-decoration: none;  
 }
 
 
@@ -57,7 +57,7 @@
     height: auto;
     justify-content: left;
     margin-top: 35px;
-    border: none;       /* removed border around other images */
+    border: none;      
 }
 
 .photoPagenav-col {
@@ -68,7 +68,7 @@
     color: #5F002B;
 }
 
-/* Remove underline and force text color for nav items */
+
 .photoPagenav-col .photoPagenav {
     color: #5F002B;
     text-decoration: none;
@@ -86,7 +86,7 @@
 
 .photoPagecomplogo {
     width: 100px;
-    height: auto; /* keep aspect ratio */
+    height: auto; 
 }
 /* Photos Page End */
 
