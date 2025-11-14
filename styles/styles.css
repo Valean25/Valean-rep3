@@ -1,8 +1,6 @@
-/* Photos Page Start */
-.photoPage {
+body{
     background-image: url(../assets/bgtexture.jpg);
 }
-
 .photoPagelogo {
     display: flex;
     width: 250px;
