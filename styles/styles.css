@@ -116,11 +116,6 @@ width: 764.5px;
 }
 
 /* --------JONATHAN--------------------------------------------------------------------------------------------------------------------------------------------- */
-.font1 {
-    color: #5F002B;
-    font: url(/font/Montauk-Italic.otf);
-}
-
 .image2 {
     width: 672px;
     height: 449.5px;
@@ -128,7 +123,7 @@ width: 764.5px;
 
 .font1 {
     color: #5F002B;
-    font: url(/font/Montauk-Italic.otf);
+    font: url("/fonts/Montauk-Regular.otf");
 }
 
 .image1 {
@@ -138,6 +133,7 @@ width: 764.5px;
 .rectangle {
     color: #5F002B !important;
     font-size: auto;
+    object-fit: fill;
     width: 1080px;
     height: 150px;
     background-color: #ffff !important;
@@ -158,8 +154,8 @@ width: 764.5px;
     margin: 24px;
 }
 .rawr{
-    margin-top: 128px;
-    margin-left: 256px;
+    margin-top: 64px;
+    margin-left: 128px;
 }
 
 /* -----Isaias------------------------------------------------------------------------------------------------------------------------------------------------ */
