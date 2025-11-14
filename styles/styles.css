@@ -82,6 +82,12 @@
 
 /* Photos Page End */
 
+/* About Page Start */
+.abtPgB{
+    background-image: url(../assets/bgtexture.jpg);
+}
+
+/* About Page End */
 body {
     background-image: url(/assets/bgtexture.jpg) !important;
 }
