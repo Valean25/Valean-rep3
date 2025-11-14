@@ -308,9 +308,11 @@ body{
     align-items: stretch;
     justify-content: space-around;
     margin-top: 64px;
-    margin-left: 128px;
+    padding: 0px !important;
+
 }
 .rawr1{
+    padding: 0px !important;
     margin-top: 64px;
 }
 .rawr2{
